@@ -102,12 +102,12 @@ class Login extends Component {
                                 innerRef={(input) => this.nik = input}/>
                         </FormGroup>
                         <FormGroup>
-                            <Label htmlFor="firstName">Email</Label>
+                            <Label htmlFor="firstName">First Name</Label>
                             <Input type="text" id="firstName" name="firstName"
                                 innerRef={(input) => this.firstName = input}/>
                         </FormGroup>
                         <FormGroup>
-                            <Label htmlFor="lastName">Nomer Telepon</Label>
+                            <Label htmlFor="lastName">Last Name</Label>
                             <Input type="text" id="lastName" name="lastName"
                                 innerRef={(input) => this.lastName = input}/>
                         </FormGroup>
